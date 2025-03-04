@@ -105,7 +105,7 @@ DATABASES = {
         'NAME': 'database',
         'USER': 'avnadmin',
         'PASSWORD': DB_PASSWORD,
-        'PORT': '5432',
+        'PORT': '10910',
         'HOST': DB_HOST,
     }
 }

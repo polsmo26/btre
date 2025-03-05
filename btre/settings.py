@@ -36,6 +36,9 @@ SECRET_KEY = SECRET_KEY
 DEBUG = True
 
 ALLOWED_HOSTS = ['https://btre-production.up.railway.app/', '127.0.0.1', 'localhost']
+CSRF_TRUSTED_ORIGINS = []
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
 
 
 # Application definition
